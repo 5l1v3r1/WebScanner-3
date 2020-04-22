@@ -8,6 +8,8 @@
 
 from Scanner import Whois
 from Scanner import Output
+from Scanner import CrossSite
+from Scanner import Injection2_electric_boogaloo as inj
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -79,22 +81,38 @@ class Ui_MainWindow(object):
         thisWebsite = self.website.toPlainText()
 
         if(self.domainLookup.isChecked()):
-            output.append("Looking up Domain Information for: " + thisWebsite + "\n")
-            website = Whois.Whois(self.website.toPlainText())
-            output.append(website)
+            self.whois(self.website.toPlainText(), output)
+
         if(self.Injection.isChecked()):
-            output.append("Looking for Injection Vulnerabilities for: " + thisWebsite + "\n")
+            self.injection(thisWebsite, output)
 
         if(self.crossSite.isChecked()):
-            output.append("Looking for CrossSite Vulnerabilities for: " + thisWebsite + "\n")
-        if(self.all.isChecked()):
-            output.append("Looking up Domain Information for: " + thisWebsite + "\n")
-            # website = Whois.Whois(self.website.toPlainText())
-            # output.append(website)
-            output.append("Looking for Injection Vulnerabilities for: " + thisWebsite + "\n")
-# add Injection Vulnerability Lookup
-            output.append("Looking for CrossSite Vulnerabilities for: " + thisWebsite + "\n")
+            self.cross(thisWebsite, output)
 
+        if(self.all.isChecked()):
+            self.cross(thisWebsite, output)
+            output.append("")
+            self.whois(self.website.toPlainText(), output)
+            self.injection(thisWebsite, output)
+
+
+    def cross(self, website, output):
+        output.append("Looking for CrossSite Vulnerabilities for: " + website + "\n")
+        cross = CrossSite.CrossSite(website)
+        output.append(cross.scan_xss())
+
+
+    def whois(self, website, output):
+        output.append("Looking up Domain Information for: " + website + "\n")
+        whoIs_hold = Whois.Whois(website)
+        results = whoIs_hold.lookup()
+        output.append(results)
+
+
+    def injection(self, website, output):
+        output.append("Looking for Injection Vulnerabilities for: " + website + "\n")
+        inject = inj.Injection_2(website)
+        output.append(inject.inject())
 
 if __name__ == "__main__":
     import sys
