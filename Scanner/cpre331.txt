@@ -1,0 +1,10 @@
+Web Vulnerability Scanner
+Designed and Built by Tyler Fuchs
+For CprE 331X, Git Repository Can be Found: https://github.com/tfuchs98/WebScanner
+
+
+
+Looking for Injection Vulnerabilities for: http://127.0.0.1:5000/
+
+This site is vulnerable to sql injection
+The injection used was: users?rank=user'OR'1'='1

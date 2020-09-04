@@ -1,0 +1,77 @@
+Web Vulnerability Scanner
+Designed and Built by Tyler Fuchs
+For CprE 331X, Git Repository Can be Found: https://github.com/tfuchs98/WebScanner
+
+
+
+Looking up Domain Information for: www.iastate.edu
+
+<div class="col-md-12 queryResponseBodyValue">
+ <a href="/whois/ate.edu">
+  ate.edu
+ </a>
+ |
+ <a href="/whois/ate.edu.pl">
+  ate.edu.pl
+ </a>
+ |
+ <a href="/whois/ate.ee">
+  ate.ee
+ </a>
+ |
+ <a href="/whois/ate.engineering">
+  ate.engineering
+ </a>
+ |
+ <a href="/whois/ate.enterprises">
+  ate.enterprises
+ </a>
+ |
+ <a href="/whois/ate.es">
+  ate.es
+ </a>
+ |
+ <a href="/whois/ate.eus">
+  ate.eus
+ </a>
+ |
+</div>
+<div class="col-md-12 queryResponseBodyValue">
+ <pre style="border:0px;">No match for "ATE.EDU".
+&gt;&gt;&gt; Last update of whois database: 2020-05-18T15:29:47Z &lt;&lt;&lt;
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.<br/><br/>Information Updated: 2020-05-18 15:30:06</pre>
+</div>
+

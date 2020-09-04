@@ -1,0 +1,151 @@
+Web Vulnerability Scanner
+Designed and Built by Tyler Fuchs
+For CprE 331X, Git Repository Can be Found: https://github.com/tfuchs98/WebScanner
+
+
+
+Looking up Domain Information for: https://www.iastate.edu
+
+<div class="col-md-12 queryResponseBodyValue">
+ <a href="/whois/iasta-aac.org">
+  iasta-aac.org
+ </a>
+ |
+ <a href="/whois/iasta.com">
+  iasta.com
+ </a>
+ |
+ <a href="/whois/iasta.ie">
+  iasta.ie
+ </a>
+ |
+ <a href="/whois/iasta.info">
+  iasta.info
+ </a>
+ |
+ <a href="/whois/iasta.net">
+  iasta.net
+ </a>
+ |
+ <a href="/whois/iasta.org">
+  iasta.org
+ </a>
+ |
+ <a href="/whois/iasta.org.in">
+  iasta.org.in
+ </a>
+ |
+ <a href="/whois/iastac.top">
+  iastac.top
+ </a>
+ |
+ <a href="/whois/iastacademy.com">
+  iastacademy.com
+ </a>
+ |
+ <a href="/whois/iastae.edu">
+  iastae.edu
+ </a>
+ |
+ <a href="/whois/iastaff.com">
+  iastaff.com
+ </a>
+ |
+ <a href="/whois/iastaff.ru">
+  iastaff.ru
+ </a>
+ |
+ <a href="/whois/iastaff.us">
+  iastaff.us
+ </a>
+ |
+ <a href="/whois/iastage.com">
+  iastage.com
+ </a>
+ |
+ <a href="/whois/iastaggers.site">
+  iastaggers.site
+ </a>
+ |
+ <a href="/whois/iastaging.co.in">
+  iastaging.co.in
+ </a>
+ |
+ <a href="/whois/iastaging.com">
+  iastaging.com
+ </a>
+ |
+ <a href="/whois/iastagov.com">
+  iastagov.com
+ </a>
+ |
+ <a href="/whois/iastagram.com">
+  iastagram.com
+ </a>
+ |
+ <a href="/whois/iastahova.com">
+  iastahova.com
+ </a>
+ |
+</div>
+<div class="col-md-12 queryResponseBodyValue">
+ <pre style="border:0px;">
+This Registry database contains ONLY .EDU domains.
+The data in the EDUCAUSE Whois database is provided
+by EDUCAUSE for information purposes in order to
+assist in the process of obtaining information about
+or related to .edu domain registration records.
+
+The EDUCAUSE Whois database is authoritative for the
+.EDU domain.
+
+A Web interface for the .EDU EDUCAUSE Whois Server is
+available at: http://whois.educause.edu
+
+By submitting a Whois query, you agree that this information
+will not be used to allow, enable, or otherwise support
+the transmission of unsolicited commercial advertising or
+solicitations via e-mail.  The use of electronic processes to
+harvest information from this server is generally prohibited
+except as reasonably necessary to register or modify .edu
+domain names.
+
+-------------------------------------------------------------
+
+Domain Name: IASTATE.EDU
+
+Registrant:
+	Iowa State University of Science and Technology
+	291 Durham Center
+	Ames, IA 50011
+	USA
+
+Administrative Contact:
+	Domain Admin
+	Iowa State University of Science and Technology
+	291 Durham Center
+	Ames, IA 50011-2251
+	USA
+	+1.5152940323
+	<img src="/tools/stringImage?img=fHVIip7Fe6R10DQl9IjPcKpXN8ksWFu6%2FIv7tmsRuWI%3D"/>
+
+Technical Contact:
+	Domain Admin
+	Iowa State University of Science and Technology
+	291 Durham Center
+	Ames, IA 50011-2251
+	USA
+	+1.5152947498
+	<img src="/tools/stringImage?img=QmI8NyI9yvedhw8%2Bmpcj1s2jnWuUskwrzlHk%2BlO5ekc%3D"/>
+
+Name Servers:
+	DNS-1.IASTATE.EDU
+	DNS-2.IASTATE.EDU
+	DNS-3.IASTATE.EDU
+
+Domain record activated:    22-Jun-1987
+Domain record last updated: 10-May-2019
+Domain expires:             31-Jul-2021
+<br/><br/>Information Updated: 2020-04-22 14:13:12</pre>
+</div>
+
